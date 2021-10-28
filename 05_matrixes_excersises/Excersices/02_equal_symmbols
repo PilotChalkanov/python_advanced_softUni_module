@@ -1,0 +1,26 @@
+rows,cols = [int(el) for el in input().split()]
+
+def init_matrix():
+    matrix = []
+    for _ in range(rows):
+        matrix.append(input().split())
+    return matrix
+
+matrix = init_matrix()
+
+def check_equal(row,col,matr):
+    current_el = matr[row][col]
+    next_el_sam_row = matr[row][col+1]
+    el_bottom = matr[row+1][col]
+    next_el_bottom = matr[row+1][col+1]
+
+    if current_el == next_el_sam_row and next_el_sam_row == el_bottom and next_el_bottom == el_bottom:
+        return True
+    return False
+
+counter = 0
+for row_index in range(rows-1):
+    for col_index in range(cols-1):
+        if check_equal(row_index,col_index,matrix):
+            counter+=1
+print(counter)

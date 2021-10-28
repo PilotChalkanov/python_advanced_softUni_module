@@ -1,0 +1,10 @@
+.odp
+--- D:\Edu\SoftUni\04_File_Handling\04_directory_traversal\folder2\presentation.pptx.odp
+.ods
+--- D:\Edu\SoftUni\04_File_Handling\04_directory_traversal\folder3\excel.xls.ods
+.py
+--- D:\Edu\SoftUni\04_File_Handling\04_directory_traversal\04_directory_traversal.py
+.tmd
+--- D:\Edu\SoftUni\04_File_Handling\04_directory_traversal\New TextMaker 2016 document.tmd
+.txt
+--- D:\Edu\SoftUni\04_File_Handling\04_directory_traversal\report.txt
